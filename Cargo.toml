@@ -1,0 +1,11 @@
+[package]
+name = "rroxy"
+version = "0.1.0"
+edition = "2018"
+authors = ["kodx <kodx.org>"]
+license = "GPL-3.0-or-later"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+bytes = "1"
+futures = "0.3"
